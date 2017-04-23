@@ -1,0 +1,20 @@
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul
+{
+list-style:square inside url('bullet2.jpg');
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  font: bold 16px/1.5 Helvetica, Verdana, sans-serif;
+  width:10em;
+}

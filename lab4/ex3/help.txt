@@ -1,0 +1,6 @@
+As the homework was not very clear for me,
+I developed the following functionalities.
+1>Loading a file from metropolia user space.
+2>A mechanism to view local text files 
+and then upload any of them.
+4>A simple ajax get call from a joke server.

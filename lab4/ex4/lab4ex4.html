@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Lab4 Exe4
+    </title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="lab4ex4.js"></script>
+</head>
+
+<body>
+    <h2>Hi Again!</h2>
+    <div id="filelist">
+        <select>
+<option value="default" selected>Choose a JSON file</option>
+    </select>
+        <button id="loadbutton">View the selected file</button>
+    </div>
+    <div id="filecontent">
+        <p>Content from Web</p>
+        <textarea cols="65" id="previewweb" readonly> </textarea>
+        <p>Processed Content from Web</p>
+        <textarea cols="65" id="parsedpreviewweb" readonly> </textarea>
+
+    </div>
+    <hr>
+    <div id="Uploadfile">Upload a file(only .JSON)<input type="file" name="fileInputer" id="fileInput">
+        <p>Content from local disk</p>
+        <textarea cols="65" id="previewlocal" readonly> </textarea>
+        <br>
+        <button id="uploadbutton">Upload</button>and the file will apear in the select on top of the page with 0 at the beginning
+        of the name.
+    </div>
+    <hr>
+    <div id="Joker">
+        <p>Or even read some random Processed JSON jokes from a joke database</p>
+        <button id="loadJokes">Load Random Jokes</button><br>
+        <textarea cols="65" id="previewjokes" readonly> </textarea>
+
+    </div>
+
+</body>
+
+</html>

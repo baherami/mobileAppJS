@@ -1,0 +1,26 @@
+#all{
+    width: 400px;
+    float: center;
+}
+#WinOrLoose{
+    border: 1px solid black;
+    opacity: 0.6;
+    width:200px;
+    height: 80px;
+    float:center;
+    background-color: white;     
+}
+#CoinDiv
+{
+	padding-left: 100px;
+    max-width:400px;
+	height:250px;
+    background-size: contain;
+        background-repeat: no-repeat;
+            background-position: center; 
+    
+}
+#flipButton
+{
+    width: 400px;
+}

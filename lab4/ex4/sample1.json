@@ -1,0 +1,16 @@
+{
+        "name": "Ali",
+        "family": "Bahrami",
+        "Age":12,
+    "Jobs": [
+        "Programmer",
+        "Freelancer",
+        "Student"
+    ],
+    "Skills": [
+        "COBOL",
+        "PL1",
+        "PASCAL",
+        "Z80Assembly"
+    ]
+}
